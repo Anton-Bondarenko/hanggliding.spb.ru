@@ -25,7 +25,9 @@ export default function Header() {
         backgroundPosition: "center center",
         width: "100%",
         height: "300px",
-        textTransform: "none"
+        textTransform: "none",
+        justifyContent: "center",
+        alignItems: "flex-start"
     }
 
     return (
@@ -43,8 +45,11 @@ export default function Header() {
                     <Typography variant="subtitle1" style={{paddingLeft: "2rem", paddingRight: "5rem"}}>
                         Сокол
                     </Typography>
-                    <Link underline='none' href='/' style={{color: "whitesmoke", textShadow: "none"}}>
+                    <Link underline='none' href='/' style={{color: "whitesmoke", textShadow: "none", paddingRight: "3rem"}}>
                         Главная
+                    </Link>
+                    <Link underline='none' href='/' style={{color: "whitesmoke", textShadow: "none", paddingRight: "3rem"}}>
+                        Как нас найти
                     </Link>
                 </Toolbar>
             </AppBar>
