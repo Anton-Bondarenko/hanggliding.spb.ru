@@ -46,7 +46,6 @@ export default function Header() {
                     <Link underline='none' href='/' style={{color: "whitesmoke", textShadow: "none"}}>
                         Главная
                     </Link>
-                    {/*<NavbarText>Дельтапланерный клуб</NavbarText>*/}
                 </Toolbar>
             </AppBar>
         </Grid>
