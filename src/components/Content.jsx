@@ -20,22 +20,7 @@ class Content extends React.Component {
             >
                 <Grid item>
                     <Paper elevation={2} className='content-placeholder'>
-                        Content Hello world dsfafasdfda afafadfasdfasd afsdfdasfas fafasdfasdfa adfa dasdfa
-                        eeeeeeeeeeeeeeeeeeee eeeeeeeee e        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeee
-                        eererwtgwethetrheetyethertthertherhert
-                        Content Hello world dsfafasdfda afafadfasdfasd afsdfdasfas fafasdfasdfa adfa dasdfa
-                        eeeeeeeeeeeeeeeeeeee eeeeeeeee e        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeee
-                        eererwtgwethetrheetyethertthertherhertContent Hello world dsfafasdfda afafadfasdfasd afsdfdasfas fafasdfasdfa adfa dasdfa
-                        eeeeeeeeeeeeeeeeeeee eeeeeeeee e        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeee
-                        eererwtgwethetrheetyethertthertherhertContent Hello world dsfafasdfda afafadfasdfasd afsdfdasfas fafasdfasdfa adfa dasdfa
-                        eeeeeeeeeeeeeeeeeeee eeeeeeeee e        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeee
-                        eererwtgwethetrheetyethertthertherhertContent Hello world dsfafasdfda afafadfasdfasd afsdfdasfas fafasdfasdfa adfa dasdfa
-                        eeeeeeeeeeeeeeeeeeee eeeeeeeee e        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeee
-                        eererwtgwethetrheetyethertthertherhertContent Hello world dsfafasdfda afafadfasdfasd afsdfdasfas fafasdfasdfa adfa dasdfa
-                        eeeeeeeeeeeeeeeeeeee eeeeeeeee e        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeee
-                        eererwtgwethetrheetyethertthertherhertContent Hello world dsfafasdfda afafadfasdfasd afsdfdasfas fafasdfasdfa adfa dasdfa
-                        eeeeeeeeeeeeeeeeeeee eeeeeeeee e        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeee
-                        eererwtgwethetrheetyethertthertherhert
+                        Content Hello world
                     </Paper>
                 </Grid>
 

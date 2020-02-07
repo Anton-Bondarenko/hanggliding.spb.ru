@@ -1,9 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
-
+import LandingPage from "../pages/landing-page"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 export default () => (
-    <Layout>
-
-    </Layout>
+    <>
+        <Header/>
+        <LandingPage/>
+        <Footer/>
+    </>
 )
