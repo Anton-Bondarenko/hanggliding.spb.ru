@@ -11,11 +11,17 @@ export default () => (
         <Header/>
         <Grid
             container
-            spacing={0}
-            direction="column"
-            alignItems="center"
+            spacing={1}
+            direction="row"
+            alignItems="top"
             justify="center"
         >
+            <Grid item>
+                <Paper elevation={2} className='content-placeholder' style={{width: "500px", padding: "1rem"}}>
+                    Мы находимся в здании бывшего завода Степана Разина недалеко от Обводного канала, в районе м. Балтийская.
+                    Клубный день-пятница. Перед посещением, свяжитесь с кем-нибудь из нас, он поможет найти наше помещение.
+                </Paper>
+            </Grid>
             <Grid item>
                 <Paper elevation={2} className='content-placeholder'>
                     <Grid>
