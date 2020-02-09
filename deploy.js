@@ -2,9 +2,9 @@ var FtpDeploy = require("ftp-deploy");
 var ftpDeploy = new FtpDeploy();
 
 var config = {
-    user: "user",
+    user: "p556835",
     // Password optional, prompted if none given
-    password: "password",
+    password: "a44203ihc",
     host: "p556835.ftp.ihc.ru",
     port: 21,
     localRoot: __dirname + "/public",

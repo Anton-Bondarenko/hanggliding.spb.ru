@@ -7,6 +7,7 @@ import Link from '@material-ui/core/Link';
 import "../css/header.scss";
 import Grid from "@material-ui/core/Grid";
 import BackgroundHeader from "../../static/img/banner.jpg"
+import HomeIcon from '@material-ui/icons/Home';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -15,6 +16,7 @@ const useStyles = makeStyles(theme => ({
         padding: theme.spacing(1),
     },
 }));
+
 
 export default function Header() {
     const classes = useStyles();
@@ -29,8 +31,8 @@ export default function Header() {
         justifyContent: "center",
         alignItems: "flex-start"
     }
-
     return (
+
         <Grid
             container
             spacing={0}
@@ -42,13 +44,14 @@ export default function Header() {
         >
             <AppBar position="static" className='navbar'>
                 <Toolbar>
-                    <Typography variant="subtitle1" style={{paddingLeft: "2rem", paddingRight: "5rem"}}>
+                    <Typography variant="subtitle1" className={'brandName'} style={{paddingLeft: "0rem", paddingRight: "4rem"}}>
                         Сокол
                     </Typography>
-                    <Link underline='none' href='/' style={{color: "whitesmoke", textShadow: "none", paddingRight: "3rem"}}>
+                    <Link underline='none' href='/' style={{color: "whitesmoke", textShadow: "none", paddingRight: "2rem"}}>
+                        <HomeIcon style={{fontSize: "1.1em", padding: "0"}}/>
                         Главная
                     </Link>
-                    <Link underline='none' href='/contacts' style={{color: "whitesmoke", textShadow: "none", paddingRight: "3rem"}}>
+                    <Link underline='none' href='/contacts' style={{color: "whitesmoke", textShadow: "none", paddingRight: "2rem"}}>
                         Как нас найти
                     </Link>
                 </Toolbar>

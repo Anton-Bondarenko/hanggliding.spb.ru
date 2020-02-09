@@ -1,7 +1,28 @@
+@import './var';
+
 .navbar{
   top: 5rem;
   opacity: 0.8;
   position: relative;
   width: auto;
   align-items: flex-start;
+}
+
+.brandName{
+  color: black;
+  font-size: 1.5em;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  text-shadow: 4px 4px #0085ff;
+}
+@media (max-width: $mediaBp1Width){
+  .brandName{
+    position: absolute;
+    top: -2rem;
+    font-size: 2em;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 4px 4px #0085ff;
+  }
 }
