@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import PageMetadata from "../components/PageMetadata";
+import YM from "../components/ym";
 
 class Contacts extends React.Component {
 
@@ -35,6 +36,7 @@ class Contacts extends React.Component {
         }
         return (
             <>
+                <YM/>
                 <PageMetadata/>
                 <Header/>
                 <Grid

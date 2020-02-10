@@ -1,7 +1,8 @@
 import React from "react";
-import {YMInitializer} from 'react-yandex-metrika';
+import ym, {YMInitializer} from 'react-yandex-metrika';
 
-class YMetrica extends React.Component {
+class YM extends React.Component {
+
     render() {
         return (
             <div>
@@ -9,7 +10,13 @@ class YMetrica extends React.Component {
             </div>
         );
     }
-}
 
-export default YMetrica;
+    doHit(){
+        ym('hit', "index");
+    }
+}
+export default YM
+
+
+
 
