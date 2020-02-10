@@ -16,24 +16,16 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-manifest`,
+            resolve: 'gatsby-plugin-manifest',
             options: {
-                name: `GatsbyJS`,
-                short_name: `GatsbyJS`,
-                start_url: `/`,
-                background_color: `#6b37bf`,
-                theme_color: `#6b37bf`,
-                display: `standalone`,
-                icon: `./static/favicon.ico`, // This path is relative to the root of the site.
+                name: 'GatsbyJS',
+                short_name: 'GatsbyJS',
+                start_url: '/',
+                background_color: '#6b37bf',
+                theme_color: '#6b37bf',
+                display: 'standalone',
+                icon: './static/favicon.ico', // This path is relative to the root of the site.
             },
         },
     ],
-// Customize your site metadata:
-    siteMetadata: {
-        title: "Сокол",
-        author: "Anton Bondarenko",
-        description: "Cайт дельтапланерного клуба Сокол, Санкт-Петербург",
-        siteUrl: "http://Hanggliding.spb.ru",
-        social: [],
-    },
 }

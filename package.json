@@ -30,6 +30,7 @@
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "react-vk": "^5.0.2",
+    "react-yandex-metrika": "^2.6.0",
     "theme-ui": "^0.3.1",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19"
