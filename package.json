@@ -1,7 +1,7 @@
 {
   "name": "sokolsite",
   "private": true,
-  "description": "Site for hanggliding.spb.ru Sokol club",
+  "description": "Site of hanggliding.spb.ru Sokol club",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -11,8 +11,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"No testsrgt\" && exit 1",
-    "deploy": "node deploy"
+    "test": "echo \"No testsrgt\" && exit 1"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.1",
@@ -42,12 +41,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
+    "url": "git+https://github.com/Anton-Bondarenko/hanggliding.spb.ru.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Anton-Bondarenko/hanggliding.spb.ru/issues"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-hello-world#readme",
+  "homepage": "http://hanggliding.spb.ru",
   "main": "gatsby-config.js",
   "keywords": [],
   "author": ""
